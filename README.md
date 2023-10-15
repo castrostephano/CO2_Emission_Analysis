@@ -1,16 +1,16 @@
 # CO2_Emission_Analysis
 
-This project was created using data found here: https://www.kaggle.com/datasets/koustavghosh149/co2-emission-around-the-world/data
+This python project was created using data found here: https://www.kaggle.com/datasets/koustavghosh149/co2-emission-around-the-world/data
 
-Pandas, Seaborn and Matplotlib are the libraries used in this project
+The python libraries Pandas, Seaborn and Matplotlib are used in this project
 
 First analysis includes three charts that show the top ten countries in the world with the highest CO2 emissions per capita in 2000,2010 and 2019
 
-Second analysis includes two charts that show a box plot with the CO2 emissions data for the seven different regions
+Second analysis includes two statistical summary charts that show a box plot with the CO2 emissions data for the seven different regions in 2010 and 2019.
 
-Then the melt function is used to transform the table in order to create a date column and carbon value column 
+Then the melt function is used to transform, or pivot, the table in order to create a new dataframe with a date column and carbon value column 
 
-Those two columns were made to create this chloropleth map that shows world wide carbon emissions in:
+They were used to create the chloropleth map below that shows world wide carbon emissions in:
 
 2000
 
